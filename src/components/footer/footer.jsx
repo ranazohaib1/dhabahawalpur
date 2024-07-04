@@ -40,7 +40,7 @@ const Footer = function () {
                           <FaMapMarkerAlt style={{color: "#654321"}} />
                         </div>
                         <div className="footer-address-info">
-                          <p style={{color: "#000000"}}>Brooklyn, New York, United States</p>
+                          <p style={{color: "#000000"}}>Head Office, Jinnah Avenue (MB-2), APE Canal Road Bahawalpur. Pakistan</p>
                         </div>
                       </li>
                       <li>
@@ -49,7 +49,7 @@ const Footer = function () {
                         </div>
                         <div className="footer-address-info">
                           <p style={{color: "#000000"}}>
-                            <Link href="tel:+0123-456789" style={{color: "#000000"}}>+0123-456789</Link>
+                            <Link href="tel:+92 (62)-111-111-518" style={{color: "#000000"}}>+92 (62)-111-111-518</Link>
                           </p>
                         </div>
                       </li>
@@ -59,8 +59,8 @@ const Footer = function () {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <Link href="mailto:example@example.com" style={{color: "#000000"}} >
-                              example@example.com
+                            <Link href="mailto:info@dhabahawalpur.com" style={{color: "#000000"}} >
+                              info@dhabahawalpur.com
                             </Link>
                           </p>
                         </div>
