@@ -379,12 +379,12 @@ function HomePage(props) {
             <Col xs={12}>
               <div className="ltn__select-availability-table-wrap">
                 <div className="ltn__select-availability-table d-none d-md-block">
-                  <ul className="ltn__select-availability-table-head">
-                    <li>Region no.</li>
-                    <li>Dealer Name</li>
-                    <li>Mobile No.</li>
-                    <li>Firm/ Company Name </li>
-                    <li>Business Address</li>
+                  <ul className="ltn__select-availability-table-head" style={{fontWeigh : "700"}}>
+                    <li style={{fontWeigh : "700"}}>Region no.</li>
+                    <li style={{fontWeigh : "700"}}>Dealer Name</li>
+                    <li style={{fontWeigh : "700"}}>Mobile No.</li>
+                    <li style={{fontWeigh : "700"}}>Firm/ Company Name </li>
+                    <li style={{fontWeigh : "700"}}>Business Address</li>
                     {/* <li>Details</li> */}
                   </ul>
                   <ul className="ltn__select-availability-table-row">

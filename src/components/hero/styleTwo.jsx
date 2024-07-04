@@ -178,7 +178,7 @@ function HeroSectionStyleTwo({ data }) {
                               </span>
                               {item.subtitle}
                             </h6>
-                            <h1 className="slide-title animated" style={{color: "#654321 "}}>
+                            <h1 className="slide-title animated" style={{color: "#654321", width: "80%"}}>
                               {item.Title}
                             </h1>
                             <div className="slide-brief animated">
