@@ -214,7 +214,7 @@ function HeroSectionStyleTwo({ data }) {
                           className={`slide-item-img ${
                             item.variationLeft ? "slide-img-left" : ""
                           }`}
-                          style={{ width: "55%"}}
+                          style={{ width: "50%"}}
                         >
                           <img src={`./img/slider/${item.heroimage}`} alt="#" />
                         </div>
