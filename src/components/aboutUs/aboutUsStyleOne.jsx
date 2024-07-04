@@ -41,7 +41,7 @@ function AboutUsStyleOne({ sectionSpace }) {
                   {/* <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">
                     About Us
                   </h6> */}
-                  <h1 className="section-title">
+                  <h1 className="section-title" style={{color: "#654321"}}>
                     Bahawalur Largest Society<span>.</span>
                   </h1>
                   <p>

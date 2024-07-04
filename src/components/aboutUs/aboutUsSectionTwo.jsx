@@ -23,7 +23,7 @@ function AboutUsSectionTwo() {
                 {/* <h6 className="section-subtitle ltn__secondary-color">
                   Building Facilities
                 </h6> */}
-                <h1 className="section-title">
+                <h1 className="section-title" style={{color: "#654321"}}>
                   Facilities
                 </h1>
                 <p>

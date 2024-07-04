@@ -7,7 +7,7 @@ const TitleSection = ({ titleSectionData, sectionClasses, headingClasses }) => {
         >
           {titleSectionData.subTitle}
         </h6>
-        <h1 className="section-title"> {titleSectionData.title}</h1>
+        <h1 className="section-title" style={{color: "#654321"}}> {titleSectionData.title}</h1>
       </div>
     </>
   );

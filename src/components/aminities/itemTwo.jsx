@@ -9,7 +9,7 @@ const AminitiesItemTwo = ({ data }) => {
             <i className={`${data.icon}`}></i>
           </span>
           <span className="category-number">{data.id}</span>
-          <span className="category-title">{data.title}</span>
+          <span className="category-title" style={{color: "#654321"}}>{data.title}</span>
           <span className="category-brief">{data.description}</span>
         </Link>
       </div>

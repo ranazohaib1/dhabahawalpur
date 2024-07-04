@@ -291,11 +291,7 @@ function HomePage(props) {
         }}
       /> */}
 
-<div
-        className="ltn__search-by-place-area before-bg-top pt-115 pb-70"
-
-
-      >
+      <div className="ltn__search-by-place-area before-bg-top pt-115 pb-70">
         <Container>
           <Row>
             <Col xs={12}>
@@ -303,7 +299,7 @@ function HomePage(props) {
                 {/* <h6 className="section-subtitle ltn__secondary-color">
                   Area Properties
                 </h6> */}
-                <h1 className="section-title">
+                <h1 className="section-title" style={{color: "#654321"}}>
                   Events
                 </h1>
               </div>
@@ -347,11 +343,8 @@ function HomePage(props) {
           <Row>
             <Col xs={12}>
               <div className="section-title-area">
-                <h6 className="section-subtitle white-color">
-                  Completed Projects
-                </h6>
                 <h1 className="section-title  white-color">
-                  Upcoming Projects
+                  Completed Projects
                 </h1>
               </div>
             </Col>
@@ -371,7 +364,7 @@ function HomePage(props) {
           <Row>
             <Col xs={12}>
               <div className="section-title-area">
-                <h1 className="section-title">Dealers</h1>
+                <h1 className="section-title" style={{color: "#654321"}}>Dealers</h1>
               </div>
             </Col>
           </Row>
@@ -537,7 +530,7 @@ function HomePage(props) {
                 {/* <h6 className="section-subtitle ltn__secondary-color">
                   Explore Neighbour
                 </h6> */}
-                <h1 className="section-title">
+                <h1 className="section-title" style={{color: "#654321"}}>
                   OnGoing Projects
                 </h1>
               </div>
@@ -550,7 +543,7 @@ function HomePage(props) {
                 <Tab.Container defaultActiveKey="first">
                   <div className="ltn__tab-menu ltn__tab-menu-4 text-center">
                     <Nav>
-                      <Nav.Link eventKey="first"> <img src="/img/neighbour/policanmall.jpg" alt="#" /></Nav.Link>
+                      <Nav.Link eventKey="first"> <img src="/img/neighbour/policanmall.jpg" alt="#"  /></Nav.Link>
                       <Nav.Link eventKey="second"> <img src="/img/neighbour/villamarket.jpg" alt="#" /></Nav.Link>
                       <Nav.Link eventKey="third"><img src="/img/neighbour/takmeelSquare.jpg" alt="#" /></Nav.Link>
                     </Nav>
@@ -562,14 +555,14 @@ function HomePage(props) {
                         <div className="row">
                           <div className="col-lg-8">
                             <div className="neighbour-apartments-img">
-                              <img src="/img/neighbour/policanmall.jpg" alt="#" />
+                              <img src="/img/neighbour/policanmall.jpg" alt="#"  />
                             </div>
                           </div>
                           <div className="col-lg-4">
                             <div className="ltn__search-by-place-item neighbour-apartments-item">
                               <div className="search-by-place-img">
                                 <Link href="#">
-                                  <img src="/img/neighbour/policanmall2.jpg" alt="#" />
+                                  <img src="/img/neighbour/policanmall2.jpg" alt="#" width="100%" height="200px"/>
                                 </Link>
                                 {/* <div className="search-by-place-badge">
                                   <ul>
@@ -579,7 +572,7 @@ function HomePage(props) {
                               </div>
                               <div className="search-by-place-info">
                                 <h4>
-                                  <Link href="#">Pelican Mall</Link>
+                                  <Link href="#"  style={{color: "#654321"}}>Pelican Mall</Link>
                                 </h4>
                                 {/* <label>
                                   <span className="ltn__secondary-color">
@@ -611,14 +604,14 @@ function HomePage(props) {
                         <div className="row">
                           <div className="col-lg-8">
                             <div className="neighbour-apartments-img">
-                              <img src="/img/neighbour/villamarket.jpg" alt="#" />
+                              <img src="/img/neighbour/villamarket.jpg" alt="#"  />
                             </div>
                           </div>
                           <div className="col-lg-4">
                             <div className="ltn__search-by-place-item neighbour-apartments-item">
                               <div className="search-by-place-img">
                                 <Link href="#">
-                                  <img src="/img/neighbour/villamosque.jpg" alt="#" />
+                                  <img src="/img/neighbour/villamosque.jpg" alt="#" width="100%" height="200px"/>
                                 </Link>
                                 {/* <div className="search-by-place-badge">
                                   <ul>
@@ -628,7 +621,7 @@ function HomePage(props) {
                               </div>
                               <div className="search-by-place-info">
                                 <h4>
-                                  <Link href="#">Villa Market</Link>
+                                  <Link href="#" style={{color: "#654321"}}>Villa Market</Link>
                                 </h4>
                                 {/* <label>
                                   <span className="ltn__secondary-color">
@@ -660,19 +653,19 @@ function HomePage(props) {
                         <div className="row">
                           <div className="col-lg-8">
                             <div className="neighbour-apartments-img">
-                              <img src="/img/neighbour/takmeelSquare.jpg" alt="#" />
+                              <img src="/img/neighbour/takmeelSquare.jpg" alt="#"  />
                             </div>
                           </div>
                           <div className="col-lg-4">
                             <div className="ltn__search-by-place-item neighbour-apartments-item">
                               <div className="search-by-place-img">
                                 <Link href="#">
-                                  <img src="/img/neighbour/takmeelSquare2.jpg" alt="#" />
+                                  <img src="/img/neighbour/takmeelSquare2.jpg" alt="#" width="100%" height="200px"/>
                                 </Link>
                               </div>
                               <div className="search-by-place-info">
                                 <h4>
-                                  <Link href="#">Takmeel Square</Link>
+                                  <Link href="#" style={{color: "#654321"}}>Takmeel Square</Link>
                                 </h4>
                                 {/* <label>
                                   <span className="ltn__secondary-color">
@@ -854,7 +847,7 @@ function HomePage(props) {
       {/* <!-- TESTIMONIAL AREA END -->
 
     <!-- BLOG AREA START (blog-3) --> */}
-      <div className="ltn__blog-area pb-70">
+      <div className="ltn__blog-area pb-70" style={{paddingTop: "40px"}}>
         <Container>
           <Row>
             <Col lg={12}>
