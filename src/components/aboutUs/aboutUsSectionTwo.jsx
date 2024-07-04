@@ -12,7 +12,7 @@ function AboutUsSectionTwo() {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="HnbMYzdjuBs"
+        videoId="gSiXR39AEtQ"
         onClose={() => setOpen(false)}
       />
       <Container>
@@ -20,43 +20,42 @@ function AboutUsSectionTwo() {
           <Col xs={12} lg={6} className="align-self-center">
             <div className="about-us-info-wrap">
               <div className="section-title-area mb-20">
-                <h6 className="section-subtitle ltn__secondary-color">
+                {/* <h6 className="section-subtitle ltn__secondary-color">
                   Building Facilities
-                </h6>
+                </h6> */}
                 <h1 className="section-title">
-                  Making living spaces More Beautiful
+                  Facilities
                 </h1>
                 <p>
-                  Over 39,000 people work for us in more than 70 countries all
-                  over the This breadth of global coverage, combined with
-                  specialist services
+                    Lorem ipsum dolor sit amet, consectetur adipisic do eiusmod
+                    tempor incididunt ut labore et
                 </p>
               </div>
               <ul className="ltn__list-item-half ltn__list-item-half-2 list-item-margin clearfix">
                 <li>
                   <i className="icon-done"></i>
-                  Living rooms are pre-wired for Surround
+                  Parking Area
                 </li>
                 <li>
                   <i className="icon-done"></i>
-                  Luxurious interior design and amenities
+                  BBQ Area
                 </li>
                 <li>
                   <i className="icon-done"></i>
-                  Nestled in the Buckhead Vinings communities
+                  Green Wall
                 </li>
                 <li>
                   <i className="icon-done"></i>
-                  Private balconies with stunning views
+                  Jogging Track
                 </li>
-                <li>
+                {/* <li>
                   <i className="icon-done"></i>A rare combination of inspired
                   architecture
                 </li>
                 <li>
                   <i className="icon-done"></i>
                   Outdoor grilling with dining court
-                </li>
+                </li> */}
               </ul>
               <div className="  ltn__animation-pulse2 text-center mt-30">
                 <button
@@ -69,7 +68,9 @@ function AboutUsSectionTwo() {
             </div>
           </Col>
           <Col xs={12} lg={6} className="align-self-center">
-            <div className="about-us-img-wrap about-img-left"></div>
+            <div className="about-us-img-wrap about-img-left">
+              {/* <img src="./img/others/aboutImage.jpeg"></img> */}
+            </div>
           </Col>
         </Row>
       </Container>

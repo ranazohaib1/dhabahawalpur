@@ -145,7 +145,7 @@ function HeroSectionStyleTwo({ data }) {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="HnbMYzdjuBs"
+        videoId="gSiXR39AEtQ"
         onClose={() => setOpen(false)}
       />
 
@@ -178,7 +178,7 @@ function HeroSectionStyleTwo({ data }) {
                               </span>
                               {item.subtitle}
                             </h6>
-                            <h1 className="slide-title animated">
+                            <h1 className="slide-title animated" style={{color: "#654321 "}}>
                               {item.Title}
                             </h1>
                             <div className="slide-brief animated">
@@ -214,8 +214,9 @@ function HeroSectionStyleTwo({ data }) {
                           className={`slide-item-img ${
                             item.variationLeft ? "slide-img-left" : ""
                           }`}
+                          style={{ width: "55%"}}
                         >
-                          <img src={`/img/slider/${item.heroimage}`} alt="#" />
+                          <img src={`./img/slider/${item.heroimage}`} alt="#" />
                         </div>
                       </Col>
                     </Row>
@@ -257,8 +258,8 @@ function HeroSectionStyleTwo({ data }) {
             >
               {data.map((item, key) => {
                 return (
-                  <div className="image-slide-item" key={key}>
-                    <img src={`/img/slider/${item.heroimage}`} alt="#" />
+                  <div className="image-slide-item" style={{width:"60% !important"}} key={key}>
+                    <img src={`./img/slider/${item.heroimage}`} alt="#" />
                   </div>
                 );
               })}

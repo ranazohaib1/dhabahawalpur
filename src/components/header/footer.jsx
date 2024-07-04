@@ -25,7 +25,7 @@ const Footer = function () {
                 <div className="footer-widget footer-about-widget">
                   <div className="footer-logo">
                     <div className="site-logo">
-                      <img src="./img/logo-2.png" alt="Logo" />
+                      <img src="/img/logo-2.png" alt="Logo" />
                     </div>
                   </div>
                   <p>
@@ -39,7 +39,7 @@ const Footer = function () {
                          <FaMapMarkerAlt/>
                         </div>
                         <div className="footer-address-info">
-                          <p> Head Office, Jinnah Avenue (MB-2), APE Canal Road Bahawalpur. Pakistan</p>
+                          <p>Brooklyn, New York, United States</p>
                         </div>
                       </li>
                       <li>
@@ -48,7 +48,7 @@ const Footer = function () {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <Link href="tel:+92 (62)-111-111-518">+92 (62)-111-111-518</Link>
+                            <Link href="tel:+0123-456789">+0123-456789</Link>
                           </p>
                         </div>
                       </li>
@@ -58,8 +58,8 @@ const Footer = function () {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <Link href="mailto:info@dhabahawalpur.com">
-                              info@dhabahawalpur.com
+                            <Link href="mailto:example@example.com">
+                              example@example.com
                             </Link>
                           </p>
                         </div>
@@ -192,7 +192,7 @@ const Footer = function () {
                     </form>
                   </div>
                   <h5 className="mt-30">We Accept</h5>
-                  <img src="./img/icons/payment-4.png" alt="Payment Image" />
+                  <img src="/img/icons/payment-4.png" alt="Payment Image" />
                 </div>
               </Col>
             </Row>
@@ -204,7 +204,7 @@ const Footer = function () {
               <Col xs={12} md={6}>
                 <div className="ltn__copyright-design clearfix">
                   <p>
-                    © 2019 DHA Bahawalpur. All Rights Reserved.{" "}
+                    All Rights Reserved @ Company{" "}
                     <span className="current-year"></span>
                   </p>
                 </div>

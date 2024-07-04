@@ -306,7 +306,7 @@ const Wishlist = () => {
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                       <Accordion.Header>
-                        PayPal <img src="./img/icons/payment-3.png" alt="#" />
+                        PayPal <img src="/img/icons/payment-3.png" alt="#" />
                       </Accordion.Header>
                       <Accordion.Body>
                         <p>

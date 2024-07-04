@@ -148,7 +148,7 @@ function MyAccount() {
                                           </div>
                                           <div className="footer-address-info">
                                             <p>
-                                               Head Office, Jinnah Avenue (MB-2), APE Canal Road Bahawalpur. Pakistan
+                                              Brooklyn, New York, United States
                                             </p>
                                           </div>
                                         </li>
@@ -158,8 +158,8 @@ function MyAccount() {
                                           </div>
                                           <div className="footer-address-info">
                                             <p>
-                                              <Link href="tel:+92 (62)-111-111-518">
-                                              +92 (62)-111-111-518
+                                              <Link href="tel:+0123-456789">
+                                                +0123-456789
                                               </Link>
                                             </p>
                                           </div>
@@ -170,8 +170,8 @@ function MyAccount() {
                                           </div>
                                           <div className="footer-address-info">
                                             <p>
-                                              <Link href="mailto:info@dhabahawalpur.com">
-                                                info@dhabahawalpur.com
+                                              <Link href="mailto:example@example.com">
+                                                example@example.com
                                               </Link>
                                             </p>
                                           </div>
@@ -347,7 +347,7 @@ function MyAccount() {
                                       <input
                                         type="email"
                                         name="ltn__lastname"
-                                        placeholder="info@dhabahawalpur.com"
+                                        placeholder="example@example.com"
                                       />
                                     </Col>
                                   </div>
@@ -409,7 +409,7 @@ function MyAccount() {
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
                                           <img
-                                            src="./img/product-3/2.jpg"
+                                            src="/img/product-3/2.jpg"
                                             alt="#"
                                           />
                                         </Link>
@@ -423,7 +423,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                             Head Office, Jinnah Avenue (MB-2), APE Canal Road Bahawalpur. Pakistan
+                                            Brooklyn, New York, United States
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -485,7 +485,7 @@ function MyAccount() {
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
                                           <img
-                                            src="./img/product-3/3.jpg"
+                                            src="/img/product-3/3.jpg"
                                             alt="#"
                                           />
                                         </Link>
@@ -499,7 +499,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                             Head Office, Jinnah Avenue (MB-2), APE Canal Road Bahawalpur. Pakistan
+                                            Brooklyn, New York, United States
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -561,7 +561,7 @@ function MyAccount() {
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
                                           <img
-                                            src="./img/product-3/7.jpg"
+                                            src="/img/product-3/7.jpg"
                                             alt="#"
                                           />
                                         </Link>
@@ -575,7 +575,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                             Head Office, Jinnah Avenue (MB-2), APE Canal Road Bahawalpur. Pakistan
+                                            Brooklyn, New York, United States
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -687,7 +687,7 @@ function MyAccount() {
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
                                           <img
-                                            src="./img/product-3/2.jpg"
+                                            src="/img/product-3/2.jpg"
                                             alt="#"
                                           />
                                         </Link>
@@ -701,7 +701,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                             Head Office, Jinnah Avenue (MB-2), APE Canal Road Bahawalpur. Pakistan
+                                            Brooklyn, New York, United States
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -763,7 +763,7 @@ function MyAccount() {
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
                                           <img
-                                            src="./img/product-3/3.jpg"
+                                            src="/img/product-3/3.jpg"
                                             alt="#"
                                           />
                                         </Link>
@@ -777,7 +777,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                             Head Office, Jinnah Avenue (MB-2), APE Canal Road Bahawalpur. Pakistan
+                                            Brooklyn, New York, United States
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -839,7 +839,7 @@ function MyAccount() {
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
                                           <img
-                                            src="./img/product-3/7.jpg"
+                                            src="/img/product-3/7.jpg"
                                             alt="#"
                                           />
                                         </Link>
@@ -853,7 +853,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                             Head Office, Jinnah Avenue (MB-2), APE Canal Road Bahawalpur. Pakistan
+                                            Brooklyn, New York, United States
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -2005,7 +2005,7 @@ function MyAccount() {
                                         <Accordion.Header>
                                           PayPal
                                           <img
-                                            src="./img/icons/payment-3.png"
+                                            src="/img/icons/payment-3.png"
                                             alt="#"
                                           />
                                         </Accordion.Header>

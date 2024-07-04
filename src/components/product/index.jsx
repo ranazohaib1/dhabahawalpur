@@ -21,7 +21,6 @@ const ProductItem = ({
   cartItem,
   wishlistItem,
   compareItem,
-  description
 }) => {
   let badgeText = "";
 
@@ -57,13 +56,11 @@ const ProductItem = ({
         <div className="product-img">
           <Link href={`/${baseUrl}/${slug}`}>
             <img
-              src={`/img/product/${productData.productImg}`}
+              src={`/img/product-3/${productData.productImg}`}
               alt={`${productData.title}`}
-              width="500px"
-              height="400px"
             />
           </Link>
-          {/* <div className="product-badge">
+          <div className="product-badge">
             <ul>
               <li
                 className={`sale-badge ${productData.rent ? "bg-green" : ""}`}
@@ -71,19 +68,19 @@ const ProductItem = ({
                 {badgeText}
               </li>
             </ul>
-          </div> */}
+          </div>
           <div className="product-img-location-gallery">
             <div className="product-img-location">
-              {/* <ul>
+              <ul>
                 <li>
                   <Link href="/locations">
                     <i className="flaticon-pin"></i>
                     {productData.locantion}
                   </Link>
                 </li>
-              </ul> */}
+              </ul>
             </div>
-            {/* <div className="product-img-gallery">
+            <div className="product-img-gallery">
               <ul>
                 <li>
                   <Link
@@ -104,26 +101,23 @@ const ProductItem = ({
                   </Link>
                 </li>
               </ul>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="product-info">
-          {/* <div className="product-price">
+          <div className="product-price">
             <span>
               {`$ ${productData.price}`}
               <label>/Month</label>
             </span>
-          </div> */}
+          </div>
           <h2 className="product-title">
             <Link href={`/${baseUrl}/${slug}`}>{productData.title}</Link>
           </h2>
           <div className="product-description">
             <p>{productData.fullDescription}</p>
           </div>
-          <div className="mb-2">
-            {description?.shortDescription}
-          </div>
-          {/* <ul className="ltn__list-item-2 ltn__list-item-2-before">
+          <ul className="ltn__list-item-2 ltn__list-item-2-before">
             <li>
               <span>
                 {productData.propertyDetails.bedrooms}
@@ -145,9 +139,9 @@ const ProductItem = ({
               </span>
               square Ft
             </li>
-          </ul> */}
+          </ul>
         </div>
-        {/* <div className="product-info-bottom">
+        <div className="product-info-bottom">
           <div className="real-estate-agent">
             <div className="agent-img">
               <Link href="/team-details">
@@ -175,6 +169,8 @@ const ProductItem = ({
                 <button onClick={() => setModalShow(true)}>
                   <i className="flaticon-expand"></i>
                 </button>
+
+
                 </OverlayTrigger>
               </li>
               <li>
@@ -207,7 +203,7 @@ const ProductItem = ({
               </li>
             </ul>
           </div>
-        </div> */}
+        </div>
       </div>
 
       <QuickViewtModal

@@ -18,7 +18,7 @@ const comingSoon = () => {
               <Col xs={12}>
                 <div className="error-404-inner text-center">
                   <div className="error-img mb-30">
-                    <img src="./img/others/error-1.png" alt="#" />
+                    <img src="/img/others/error-1.png" alt="#" />
                   </div>
                   <h1 className="error-404-title d-none">404</h1>
                   <h2>Page Not Found!</h2>

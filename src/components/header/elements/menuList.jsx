@@ -4,28 +4,61 @@ const MenuList = ({ addListing }) => {
   return (
     <ul>
       <li className="menu-icon">
-        <Link href="/">Home </Link>
-      </li>
-      <li className="menu-icon">
-        <Link href="/">About Us </Link>
-      </li>
-      <li className="menu-icon">
-        <Link href="/">Careers </Link>
-      </li>
-      <li className="menu-icon">
-        <Link href="/">Dealers </Link>
-      </li>
-      <li className="menu-icon">
-        <Link href="/">Events </Link>
-      </li>
-      <li className="menu-icon">
-        <Link href="/">Contact Us </Link>
-      </li>
-      {/* <li className="menu-icon">
-        <Link href="/about">
-          About <FaPlus />
+        <Link href="/">
+          Home 
         </Link>
-        <ul>
+        {/* <ul className="sub-menu menu-pages-img-show">
+          <li>
+            <Link href="/">Home Style 01</Link>
+            <img src="/img/home-demos/home-1.jpg" alt="#" />
+          </li>
+          <li>
+            <Link href="/home/page-two">Home Style 02</Link>
+            <img src="/img/home-demos/home-2.jpg" alt="#" />
+          </li>
+          <li>
+            <Link href="/home/page-three">Home Style 03</Link>
+            <img src="/img/home-demos/home-3.jpg" alt="#" />
+          </li>
+          <li>
+            <Link href="/home/page-four">Home Style 04</Link>
+            <img src="/img/home-demos/home-4.jpg" alt="#" />
+          </li>
+          <li>
+            <Link href="/home/page-five">Home Style 05</Link>
+            <img src="/img/home-demos/home-5.jpg" alt="#" />
+          </li>
+          <li>
+            <Link href="/home/page-six">Home Style 06</Link>
+            <img src="/img/home-demos/home-6.jpg" alt="#" />
+          </li>
+          <li>
+            <Link href="/home/page-seven">Home Style 07</Link>
+            <img src="/img/home-demos/home-7.jpg" alt="#" />
+          </li>
+          <li>
+            <Link href="/home/page-eight">Home Style 08</Link>
+            <img src="/img/home-demos/home-8.jpg" alt="#" />
+          </li>
+          <li>
+            <Link href="/home/page-nine">Home Style 09</Link>
+            <img src="/img/home-demos/home-9.jpg" alt="#" />
+          </li>
+          <li>
+            <Link href="/home/page-ten">Home Style 10</Link>
+            <img src="/img/home-demos/home-10.jpg" alt="#" />
+          </li>
+          <li>
+            <Link href="/home/page-eleven">Home Style 11</Link>
+            <img src="/img/home-demos/home-11.jpg" alt="#" />
+          </li>
+        </ul> */}
+      </li>
+      <li className="menu-icon">
+        <Link href="/">
+          About Us
+        </Link>
+        {/* <ul>
           <li>
             <Link href="/about">About</Link>
           </li>
@@ -50,13 +83,13 @@ const MenuList = ({ addListing }) => {
           <li>
             <Link href="/locations">Google Map Locations</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className="menu-icon">
-        <Link href="#">
-          Property <FaPlus />
+        <Link href="/">
+          Career
         </Link>
-        <ul>
+        {/* <ul>
           <li>
             <Link href="/shop">Property</Link>
           </li>
@@ -104,13 +137,13 @@ const MenuList = ({ addListing }) => {
               </li>
             </ul>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className="menu-icon">
-        <Link href="#">
-          News <FaPlus />
+        <Link href="/">
+          Dealers
         </Link>
-        <ul>
+        {/* <ul>
           <li>
             <Link href="/blog">News</Link>
           </li>
@@ -123,56 +156,77 @@ const MenuList = ({ addListing }) => {
           <li>
             <Link href="/blog/right-sidebar">News Right sidebar</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
+      <li className="menu-icon">
+        <Link href="/">
+          Events
+        </Link>
+        {/* <ul>
+          <li>
+            <Link href="/blog">News</Link>
+          </li>
+          <li>
+            <Link href="/blog/grid">News Grid</Link>
+          </li>
+          <li>
+            <Link href="/blog/left-sidebar">News Left sidebar</Link>
+          </li>
+          <li>
+            <Link href="/blog/right-sidebar">News Right sidebar</Link>
+          </li>
+        </ul> */}
+      </li>
+
+
       <li className="menu-icon mega-menu-parent">
         <Link href="#">
-          Pages <FaPlus />
+          Projects
         </Link>
         <ul className="mega-menu mega-menu column-4">
           <li>
-            <Link href="#">Inner Pages</Link>
+            <Link href="#">Ongoing Projects</Link>
             <ul>
               <li>
-                <Link href="/portfolio">Portfolio</Link>
+                <Link href="/">Main gate 2</Link>
               </li>
               <li>
-                <Link href="/portfolio/page-two">Portfolio - 02</Link>
-              </li>
-
-              <li>
-                <Link href="/team">Team</Link>
+                <Link href="/">The Real Estate Group</Link>
               </li>
 
               <li>
-                <Link href="/faq">FAQ</Link>
+                <Link href="/">Takmeel Square</Link>
+              </li>
+
+              <li>
+                <Link href="/">Pelican Mall</Link>
               </li>
             </ul>
           </li>
           <li>
-            <Link href="#">Inner Pages</Link>
+            <Link href="#">Completed Projects</Link>
             <ul>
               <li>
-                <Link href="/history">History</Link>
+                <Link href="/">Askari Bank of villa Community</Link>
               </li>
               <li>
-                <Link href="/add-listing">Add Listing</Link>
+                <Link href="/">Banquet Hall</Link>
               </li>
               <li>
-                <Link href="/locations">Google Map Locations</Link>
+                <Link href="/">Commercial Market of Villa Community</Link>
               </li>
               <li>
-                <Link href="/404">404</Link>
+                <Link href="/">Mosque of Villa Community</Link>
               </li>
               <li>
-                <Link href="/contact">Contact</Link>
+                <Link href="/">Dealers Enclave</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/coming-soon">Coming Soon</Link>
-              </li>
+              </li> */}
             </ul>
           </li>
-          <li>
+          {/* <li>
             <Link href="#">Property Pages</Link>
             <ul>
               <li>
@@ -195,23 +249,23 @@ const MenuList = ({ addListing }) => {
                 <Link href="/cart">Cart</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li>
-            <Link href="/shop">
-              <img src="./img/banner/menu-banner-1.jpg" alt="#" />
+            <Link href="/">
+              <img src="./img/others/about.JPG" alt="#" />
             </Link>
           </li>
         </ul>
-      </li> */}
-      {/* <li>
-        <Link href="/contact">Contact</Link>
-      </li> */}
+      </li>
+      <li>
+        <Link href="/">Contact Us</Link>
+      </li>
 
-      {/* {addListing ? (
-        <li className="special-link">
-          <Link href="/add-listing">Add Listing</Link>
+      {/* {addListing ? ( */}
+        <li className="special-link" style={{paddingTop: "12px", paddingBottom: "12px"}}>
+          <Link href="/add-listing">Call Now</Link>
         </li>
-      ) : null} */}
+      {/* ) : null} */}
     </ul>
   );
 };

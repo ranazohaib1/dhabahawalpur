@@ -10,7 +10,7 @@ function AboutUsSectionOne() {
         <Row>
           <Col xs={12} lg={6} className="align-self-center">
             <div className="about-us-img-wrap about-img-left">
-              <img src="./img/others/11.png" alt="About Us Image" />
+              <img src="/img/others/11.png" alt="About Us Image" />
             </div>
           </Col>
           <Col xs={12} lg={6} className="align-self-center">

@@ -240,7 +240,7 @@ font-family: 'Poppins', sans-serif;
   --ltn__secondary-color-2: #cb3421; /* Darken */
   --ltn__secondary-color-3: #fb412a; /* Lighten */
   --ltn__heading-color: #071c1f;
-  --ltn__paragraph-color: #5c727d;
+  --ltn__paragraph-color: #000000;
 
   --ltn__heading-font: "Poppins", sans-serif;
   --ltn__body-font: "Nunito Sans", sans-serif;
@@ -282,9 +282,9 @@ font-family: 'Poppins', sans-serif;
 
   /* Background Colors ( 1, 2, 3, 4, 5 )  */
   --section-bg-1: #f2f6f7; /* White */
-  --section-bg-2: #171b2a; /* Black */
+  --section-bg-2: rgb(242, 246, 247); /* Black */
   --section-bg-5: #fff2f0; /* White */
-  --section-bg-6: #654321; /* Black */
+  --section-bg-6: #0b2c3d; /* Black */
   --section-bg-7: #282b38; /* Black */
 
   /* Border Colors */

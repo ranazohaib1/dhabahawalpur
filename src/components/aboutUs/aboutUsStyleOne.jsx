@@ -13,7 +13,7 @@ function AboutUsStyleOne({ sectionSpace }) {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="X7R-q9rsrtU"
+        videoId="X0uOVwKSkRo"
         onClose={() => setOpen(false)}
       />
       <div className={`ltn__about-us-area ${sectionSpace}`}>
@@ -21,10 +21,10 @@ function AboutUsStyleOne({ sectionSpace }) {
           <Row>
             <Col xs={12} lg={6} className="align-self-center">
               <div className="about-us-img-wrap about-img-left">
-                <img src="./img/others/main.jpg" alt="About Us Image" />
-                {/* <div className="about-us-img-info about-us-img-info-2 about-us-img-info-3">
+                <img src="./img/others/about.JPG" alt="About Us Image" width="574px" height="574px" />
+                <div className="about-us-img-info about-us-img-info-2 about-us-img-info-3">
                   <div className="ltn__video-img ltn__animation-pulse1">
-                    <img src="./img/others/8.png" alt="video popup bg image" />
+                    <img src="./img/others/aboutvideo.jpeg" alt="video popup bg image" />
                     <button
                       onClick={() => setOpen(true)}
                       className="ltn__video-icon-2"
@@ -32,17 +32,17 @@ function AboutUsStyleOne({ sectionSpace }) {
                       <FaPlay />
                     </button>
                   </div>
-                </div> */}
+                </div>
               </div>
             </Col>
             <Col xs={12} lg={6} className="align-self-center">
               <div className="about-us-info-wrap">
                 <div className="section-title-area mb-20">
-                  <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">
+                  {/* <h6 className="section-subtitle section-subtitle-2 ltn__secondary-color">
                     About Us
-                  </h6>
+                  </h6> */}
                   <h1 className="section-title">
-                    Bahawalpur largest Society<span>.</span>
+                    Bahawalur Largest Society<span>.</span>
                   </h1>
                   <p>
                     Since its inception, DHA Bahawalpur is contouring the concept of premier community lifestyle. DHA has become the epitome of developing and creating residencies and communities for the diverse populous. We are growing progressively but with sustainable pace, focused more towards reliability in the development of communities. DHA, itself has become a brand and has shed a huge responsibility in charting our course of growth and expansion.

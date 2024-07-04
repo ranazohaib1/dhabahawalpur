@@ -102,7 +102,7 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="./img/logo.png" alt="Logo" />
+                      <img src="/img/logo.png" alt="Logo" />
                     </Link>
                   </div>
                 </div>
@@ -116,10 +116,9 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                   </nav>
                 </div>
               </Col>
-              <Col className="ltn__header-options ltn__header-options-2 mb-sm-20">
-                {/* <!-- header-search-1 --> */}
+              {/* <Col className="ltn__header-options ltn__header-options-2 mb-sm-20">
                 <div className="header-search-wrap">
-                  {/* <div
+                  <div
                     className={`header-search-1 ${
                       searchFormOpener ? "search-open" : ""
                     }`}
@@ -132,8 +131,8 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                         <FaTimes className="icon-cancel  for-search-close" />
                       </span>
                     </div>
-                  </div> */}
-                  {/* <div
+                  </div>
+                  <div
                     className={`header-search-1-form ${
                       searchFormOpener ? "search-open" : ""
                     }`}
@@ -168,10 +167,9 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                         <li>NO Products Found</li>
                       )}
                     </ul>
-                  </div> */}
+                  </div>
                 </div>
-                {/* <!-- user-menu --> */}
-                {/* <div className="ltn__drop-menu user-menu">
+                <div className="ltn__drop-menu user-menu">
                   <ul>
                     <li>
                       <Link href="#">
@@ -193,9 +191,8 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                       </ul>
                     </li>
                   </ul>
-                </div> */}
-                {/* <!-- mini-cart --> */}
-                {/* <div className="mini-cart-icon">
+                </div>
+                <div className="mini-cart-icon">
                   <button
                     onClick={cartMenu}
                     className={`ltn__utilize-toggle ${
@@ -210,9 +207,7 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                       <sup>0</sup>
                     )}
                   </button>
-                </div> */}
-                {/* <!-- mini-cart --> */}
-                {/* <!-- Mobile Menu Button --> */}
+                </div>
                 <div className="mobile-menu-toggle d-xl-none">
                   <button
                     onClick={offcanVasToggler}
@@ -234,11 +229,10 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                     </svg>
                   </button>
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </div>
-        {/* <!-- ltn__header-middle-area end --> */}
       </header>
 
       {/* <!-- Utilize Cart Menu Start --> */}

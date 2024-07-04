@@ -306,7 +306,7 @@ function HomeVersionTen(props) {
                         </Col>
                         <Col xs={12} lg={6}>
                           <div className="apartments-plan-img">
-                            <img src="./img/others/10.png" alt="#" />
+                            <img src="/img/others/10.png" alt="#" />
                           </div>
                         </Col>
                       </Row>
@@ -353,7 +353,7 @@ function HomeVersionTen(props) {
                         </Col>
                         <Col xs={12} lg={6}>
                           <div className="apartments-plan-img">
-                            <img src="./img/others/10.png" alt="#" />
+                            <img src="/img/others/10.png" alt="#" />
                           </div>
                         </Col>
                       </Row>
@@ -400,7 +400,7 @@ function HomeVersionTen(props) {
                         </Col>
                         <Col xs={12} lg={6}>
                           <div className="apartments-plan-img">
-                            <img src="./img/others/10.png" alt="#" />
+                            <img src="/img/others/10.png" alt="#" />
                           </div>
                         </Col>
                       </Row>
@@ -447,7 +447,7 @@ function HomeVersionTen(props) {
                         </Col>
                         <Col xs={12} lg={6}>
                           <div className="apartments-plan-img">
-                            <img src="./img/others/10.png" alt="#" />
+                            <img src="/img/others/10.png" alt="#" />
                           </div>
                         </Col>
                       </Row>
@@ -494,7 +494,7 @@ function HomeVersionTen(props) {
                         </Col>
                         <Col xs={12} lg={6}>
                           <div className="apartments-plan-img">
-                            <img src="./img/others/10.png" alt="#" />
+                            <img src="/img/others/10.png" alt="#" />
                           </div>
                         </Col>
                       </Row>
@@ -766,9 +766,9 @@ function HomeVersionTen(props) {
                 <Tab.Container defaultActiveKey="first">
                   <div className="ltn__tab-menu ltn__tab-menu-4 text-center">
                     <Nav>
-                      <Nav.Link eventKey="first"> <img src="./img/neighbour/1.jpg" alt="#" /></Nav.Link>
-                      <Nav.Link eventKey="second"> <img src="./img/neighbour/2.jpg" alt="#" /></Nav.Link>
-                      <Nav.Link eventKey="third"><img src="./img/neighbour/3.jpg" alt="#" /></Nav.Link>
+                      <Nav.Link eventKey="first"> <img src="/img/neighbour/1.jpg" alt="#" /></Nav.Link>
+                      <Nav.Link eventKey="second"> <img src="/img/neighbour/2.jpg" alt="#" /></Nav.Link>
+                      <Nav.Link eventKey="third"><img src="/img/neighbour/3.jpg" alt="#" /></Nav.Link>
                     </Nav>
 
                   </div>
@@ -778,14 +778,14 @@ function HomeVersionTen(props) {
                         <div className="row">
                           <div className="col-lg-8">
                             <div className="neighbour-apartments-img">
-                              <img src="./img/neighbour/1.jpg" alt="#" />
+                              <img src="/img/neighbour/1.jpg" alt="#" />
                             </div>
                           </div>
                           <div className="col-lg-4">
                             <div className="ltn__search-by-place-item neighbour-apartments-item">
                               <div className="search-by-place-img">
                                 <Link href="#">
-                                  <img src="./img/product-3/3.jpg" alt="#" />
+                                  <img src="/img/product-3/3.jpg" alt="#" />
                                 </Link>
                                 <div className="search-by-place-badge">
                                   <ul>
@@ -827,14 +827,14 @@ function HomeVersionTen(props) {
                         <div className="row">
                           <div className="col-lg-8">
                             <div className="neighbour-apartments-img">
-                              <img src="./img/neighbour/2.jpg" alt="#" />
+                              <img src="/img/neighbour/2.jpg" alt="#" />
                             </div>
                           </div>
                           <div className="col-lg-4">
                             <div className="ltn__search-by-place-item neighbour-apartments-item">
                               <div className="search-by-place-img">
                                 <Link href="#">
-                                  <img src="./img/product-3/2.jpg" alt="#" />
+                                  <img src="/img/product-3/2.jpg" alt="#" />
                                 </Link>
                                 <div className="search-by-place-badge">
                                   <ul>
@@ -876,14 +876,14 @@ function HomeVersionTen(props) {
                         <div className="row">
                           <div className="col-lg-8">
                             <div className="neighbour-apartments-img">
-                              <img src="./img/neighbour/3.jpg" alt="#" />
+                              <img src="/img/neighbour/3.jpg" alt="#" />
                             </div>
                           </div>
                           <div className="col-lg-4">
                             <div className="ltn__search-by-place-item neighbour-apartments-item">
                               <div className="search-by-place-img">
                                 <Link href="#">
-                                  <img src="./img/product-3/4.jpg" alt="#" />
+                                  <img src="/img/product-3/4.jpg" alt="#" />
                                 </Link>
                                 <div className="search-by-place-badge">
                                   <ul>
@@ -948,7 +948,7 @@ function HomeVersionTen(props) {
                         <Accordion.Body>
                           <div className="ltn__video-img alignleft">
                             <img
-                              src="./img/bg/17.jpg"
+                              src="/img/bg/17.jpg"
                               alt="video popup bg image"
                             />
                             <button

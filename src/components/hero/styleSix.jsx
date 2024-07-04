@@ -15,7 +15,7 @@ function HeroSectionStyleSix({ navMenuClass }) {
           {/* <!-- HTML5 VIDEO --> */}
 
           <video autoPlay muted loop id="myVideo">
-            <source src="./media/3.mp4" type="video/mp4" />
+            <source src="/media/3.mp4" type="video/mp4" />
           </video>
 
           {/* <!-- YouTube VIDEO --> */}

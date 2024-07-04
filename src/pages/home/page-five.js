@@ -24,7 +24,7 @@ import featuresData from "@/data/service";
 
 function HomePageFive(props) {
     const { products } = useSelector((state) => state.product);
-    const featuredProducts = getProducts(products, "buying", "featured", 4);
+    const featuredProducts = getProducts(products, "buying", "featured", 5);
     const featureData = getProducts(featuresData, "buying", "featured", 3);
 
     const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
@@ -185,8 +185,8 @@ function HomePageFive(props) {
                                     sectionClasses="text-center"
                                     headingClasses="section-subtitle-2"
                                     titleSectionData={{
-                                        subTitle: "Events",
-                                        title: "Upcoming Events",
+                                        subTitle: "Properties",
+                                        title: "Featured Listings",
                                     }}
                                 />
                             </Col>
@@ -226,7 +226,6 @@ function HomePageFive(props) {
                                                     discountedPrice={discountedPrice}
                                                     productPrice={productPrice}
                                                     cartItem={cartItem}
-                                                    description={product.description}
                                                     wishlistItem={wishlistItem}
                                                     compareItem={compareItem}
                                                 />
@@ -306,7 +305,7 @@ function HomePageFive(props) {
                                                     </Col>
                                                     <Col xs={12} lg={6}>
                                                         <div className="apartments-plan-img">
-                                                            <img src="./img/others/10.png" alt="#" />
+                                                            <img src="/img/others/10.png" alt="#" />
                                                         </div>
                                                     </Col>
                                                 </Row>
@@ -353,7 +352,7 @@ function HomePageFive(props) {
                                                     </Col>
                                                     <Col xs={12} lg={6}>
                                                         <div className="apartments-plan-img">
-                                                            <img src="./img/others/10.png" alt="#" />
+                                                            <img src="/img/others/10.png" alt="#" />
                                                         </div>
                                                     </Col>
                                                 </Row>
@@ -400,7 +399,7 @@ function HomePageFive(props) {
                                                     </Col>
                                                     <Col xs={12} lg={6}>
                                                         <div className="apartments-plan-img">
-                                                            <img src="./img/others/10.png" alt="#" />
+                                                            <img src="/img/others/10.png" alt="#" />
                                                         </div>
                                                     </Col>
                                                 </Row>
@@ -447,7 +446,7 @@ function HomePageFive(props) {
                                                     </Col>
                                                     <Col xs={12} lg={6}>
                                                         <div className="apartments-plan-img">
-                                                            <img src="./img/others/10.png" alt="#" />
+                                                            <img src="/img/others/10.png" alt="#" />
                                                         </div>
                                                     </Col>
                                                 </Row>
@@ -494,7 +493,7 @@ function HomePageFive(props) {
                                                     </Col>
                                                     <Col xs={12} lg={6}>
                                                         <div className="apartments-plan-img">
-                                                            <img src="./img/others/10.png" alt="#" />
+                                                            <img src="/img/others/10.png" alt="#" />
                                                         </div>
                                                     </Col>
                                                 </Row>

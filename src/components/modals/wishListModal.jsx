@@ -30,7 +30,7 @@ const WishListModal = ({ productData, wishlistShow, wishlistCloseHandle }) => {
               <Row>
                 <Col xs={12}>
                   <div className="modal-product-img">
-                    <img src="./img/product/7.png" alt="#" />
+                    <img src="/img/product/7.png" alt="#" />
                   </div>
                   <div className="modal-product-info">
                     <h5>

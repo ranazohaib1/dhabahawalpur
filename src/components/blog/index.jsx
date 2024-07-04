@@ -6,11 +6,11 @@ const BlogItem = ({ baseUrl, data, slug }) => {
       <div className="ltn__blog-item ltn__blog-item-3">
         <div className="ltn__blog-img">
           <Link href={`${baseUrl}/${slug}`}>
-            <img src={`/img/blog/${data.thumbImg}`} alt={`${data.title}`} />
+            <img src={`/img/blog/${data.thumbImg}`} alt={`${data.title}`} width="450px" height="250px" />
           </Link>
         </div>
         <div className="ltn__blog-brief">
-          <div className="ltn__blog-meta">
+          {/* <div className="ltn__blog-meta">
             <ul>
               <li className="ltn__blog-author">
                 <Link href="#">
@@ -26,11 +26,11 @@ const BlogItem = ({ baseUrl, data, slug }) => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
           <h3 className="ltn__blog-title">
             <Link href={`${baseUrl}/${slug}`}>{data.title}</Link>
           </h3>
-          <div className="ltn__blog-meta-btn">
+          {/* <div className="ltn__blog-meta-btn">
             <div className="ltn__blog-meta">
               <ul>
                 <li className="ltn__blog-date">
@@ -42,7 +42,7 @@ const BlogItem = ({ baseUrl, data, slug }) => {
             <div className="ltn__blog-btn">
               <Link href={`${baseUrl}/${slug}`}>Read more</Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

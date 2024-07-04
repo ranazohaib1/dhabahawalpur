@@ -7,17 +7,15 @@ const HeaderTopInfo = function () {
       <div className="ltn__top-bar-menu">
         <ul>
           <li>
-            <Link href="mailto:info@dhabahawalpur.com" style={{color: "#fff"}}>
-              <FaEnvelope color="#fff" />
-              <i></i>
-                info@dhabahawalpur.com
-
+            <Link href="mailto:info@webmail.com">
+              <FaEnvelope />
+              <i></i> info@webmail.com
             </Link>
           </li>
           <li>
-            <Link href="/locations" style={{color: "#fff"}}>
-              <FaMapMarkerAlt color="#fff" />
-                Head Office, Jinnah Avenue (MB-2), APE Canal Road Bahawalpur. Pakistan
+            <Link href="/locations">
+              <FaMapMarkerAlt />
+              15/A, Nest Tower, NYC
             </Link>
           </li>
         </ul>

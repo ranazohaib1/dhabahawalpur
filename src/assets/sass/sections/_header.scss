@@ -548,8 +548,10 @@
 
 /* Menu Icon */
 .menu-icon {
+  color: #654321;
   & > a {
     position: relative;
+
     // &::before {
     //     content: "\f067";
     //     font-size: 8px;

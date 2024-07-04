@@ -1,9 +1,9 @@
 [
   {
     "id": "01",
-    "title": "Parking Space",
+    "title": "Cinemas",
     "description": "Enimad minim veniam quis no exercitation ullamco lab",
-    "icon": "flaticon-car"
+    "icon": "flaticon-movie"
   },
   {
     "id": "02",
@@ -31,9 +31,9 @@
   },
   {
     "id": "06",
-    "title": "King Size Beds",
+    "title": "Shopping Malls",
     "description": "Enimad minim veniam quis no exercitation ullamco lab",
-    "icon": "flaticon-bed-1"
+    "icon": "flaticon-mall"
   },
   {
     "id": "07",

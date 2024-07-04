@@ -1,10 +1,10 @@
 [
   {
-    "subtitle": "Real Estate Agency",
-    "Title": "Find Your Dream House By Us",
+    "subtitle": "Housing Society",
+    "Title": "A place where your dream comes true",
     "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
     "icon": "FaHome",
-    "heroimage": "61.jpg",
+    "heroimage": "firstSlider1.jpg",
     "id": "1",
     "buttonText": "Make An Enquiry",
     "videoButton": true,
@@ -12,11 +12,11 @@
     "variationLeft": false
   },
   {
-    "subtitle": "Real Estate Agency",
+    "subtitle": "Housing Society",
     "Title": "The Right Place of House Finding",
     "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
     "icon": "FaHome",
-    "heroimage": "62.jpg",
+    "heroimage": "firstSlider2.JPG",
     "id": "2",
     "buttonText": "Make An Enquiry",
     "videoButton": false,
@@ -24,11 +24,11 @@
     "variationLeft": false
   },
   {
-    "subtitle": "Real Estate Agency",
+    "subtitle": "Housing Society",
     "Title": "Search and Find Luxury House",
     "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
     "icon": "FaHome",
-    "heroimage": "62.jpg",
+    "heroimage": "firstSlider3.jpg",
     "id": "3",
     "buttonText": "Make An Enquiry",
     "videoButton": false,
@@ -36,11 +36,11 @@
     "variationLeft": false
   },
   {
-    "subtitle": "Real Estate Agency",
-    "Title": "Find Your Dream House By Us",
+    "subtitle": "Housing Society",
+    "Title": "A place where your dream comes true",
     "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
     "icon": "FaHome",
-    "heroimage": "61.jpg",
+    "heroimage": "firstSlider4.jpg",
     "id": "4",
     "buttonText": "Make An Enquiry",
     "videoButton": true,

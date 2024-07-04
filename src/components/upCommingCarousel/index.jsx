@@ -52,38 +52,77 @@ const UpCommingcarousel = () => {
             <Row>
               <Col xs={12} lg={7}>
                 <div className="ltn__upcoming-project-img">
-                  <img src="./img/product-3/3.jpg" alt="#" />
+                  <img src="/img/projects/askari.jpg" alt="#" />
                 </div>
               </Col>
               <Col xs={12} lg={5} className="section-bg-1">
                 <div className="ltn__upcoming-project-info ltn__menu-widget">
-                  <h6 className="section-subtitle ltn__secondary-color mb-0">
-                    About Projects
-                  </h6>
-                  <h1 className="mb-30">Upcoming Projects</h1>
+                  <h1 className="mb-30">Completed Projects</h1>
                   <ul className="mt">
                     <li>
-                      1. Project Name: <span>Quarter</span>
+                      1. Project Name: <span>Askari Bank</span>
                     </li>
                     <li>
-                      2. Project Type: <span>Apartment / Home</span>
+                      2. Project Type: <span>Bank</span>
                     </li>
                     <li>
-                      3. Building Location: <span>New York, USA</span>
+                      3. Building Location: <span>Villa Community</span>
                     </li>
-                    <li>
+                    {/* <li>
                       4. No. Of Apartments: <span>568</span>
                     </li>
                     <li>
                       5. Total Investment: <span>$14,500,00</span>
-                    </li>
+                    </li> */}
                   </ul>
                   <div className="btn-wrapper animated">
                     <Link
-                      href="/contact"
+                      href="/"
                       className="theme-btn-1 btn btn-effect-1"
                     >
-                      Download Brochure
+                      Learn More
+                    </Link>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </Col>
+        <Col xs={12}>
+          <div className="ltn__upcoming-project-item">
+            <Row>
+              <Col xs={12} lg={7}>
+                <div className="ltn__upcoming-project-img">
+                  <img src="/img/projects/banquet.jpg" alt="#" />
+                </div>
+              </Col>
+              <Col xs={12} lg={5} className="section-bg-1">
+                <div className="ltn__upcoming-project-info ltn__menu-widget">
+                  {/* <h6 className="ltn__secondary-color">About Projects</h6> */}
+                  <h1>Completed Projects</h1>
+                  <ul>
+                    <li>
+                      1. Project Name: <span>Banquet Hall</span>
+                    </li>
+                    <li>
+                      2. Project Type: <span>Marriage Hall</span>
+                    </li>
+                    <li>
+                      3. Building Location: <span>Villa Area</span>
+                    </li>
+                    {/* <li>
+                      4. No. Of Apartments: <span>568</span>
+                    </li>
+                    <li>
+                      5. Total Investment: <span>$14,500,00</span>
+                    </li> */}
+                  </ul>
+                  <div className="btn-wrapper animated">
+                    <Link
+                      href="/"
+                      className="theme-btn-1 btn btn-effect-1"
+                    >
+                      Learn More
                     </Link>
                   </div>
                 </div>
@@ -97,79 +136,36 @@ const UpCommingcarousel = () => {
             <Row>
               <Col xs={12} lg={7}>
                 <div className="ltn__upcoming-project-img">
-                  <img src="./img/product-3/2.jpg" alt="#" />
+                  <img src="/img/projects/villamosque.jpg" alt="#" />
                 </div>
               </Col>
               <Col xs={12} lg={5} className="section-bg-1">
                 <div className="ltn__upcoming-project-info ltn__menu-widget">
-                  <h6 className="ltn__secondary-color">About Projects</h6>
-                  <h1>Upcoming Projects</h1>
+                  {/* <h6 className="ltn__secondary-color">About Projects</h6> */}
+                  <h1>Completed Projects</h1>
                   <ul>
                     <li>
-                      1. Project Name: <span>Quarter</span>
+                      1. Project Name: <span>Villa Mosque</span>
                     </li>
                     <li>
-                      2. Project Type: <span>Apartment / Home</span>
+                      2. Project Type: <span>Mosque</span>
                     </li>
                     <li>
-                      3. Building Location: <span>New York, USA</span>
+                      3. Building Location: <span>Near Villa Market</span>
                     </li>
-                    <li>
+                    {/* <li>
                       4. No. Of Apartments: <span>568</span>
                     </li>
                     <li>
                       5. Total Investment: <span>$14,500,00</span>
-                    </li>
+                    </li> */}
                   </ul>
                   <div className="btn-wrapper animated">
                     <Link
-                      href="/contact"
+                      href="/"
                       className="theme-btn-1 btn btn-effect-1"
                     >
-                      Download Brochure
-                    </Link>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-          </div>
-        </Col>
-        {/* <!-- upcoming-project-item --> */}
-        <Col xs={12}>
-          <div className="ltn__upcoming-project-item">
-            <Row>
-              <Col xs={12} lg={7}>
-                <div className="ltn__upcoming-project-img">
-                  <img src="./img/product-3/7.jpg" alt="#" />
-                </div>
-              </Col>
-              <Col xs={12} lg={5} className="section-bg-1">
-                <div className="ltn__upcoming-project-info ltn__menu-widget">
-                  <h6 className="ltn__secondary-color">About Projects</h6>
-                  <h1>Upcoming Projects</h1>
-                  <ul>
-                    <li>
-                      1. Project Name: <span>Quarter</span>
-                    </li>
-                    <li>
-                      2. Project Type: <span>Apartment / Home</span>
-                    </li>
-                    <li>
-                      3. Building Location: <span>New York, USA</span>
-                    </li>
-                    <li>
-                      4. No. Of Apartments: <span>568</span>
-                    </li>
-                    <li>
-                      5. Total Investment: <span>$14,500,00</span>
-                    </li>
-                  </ul>
-                  <div className="btn-wrapper animated">
-                    <Link
-                      href="/contact"
-                      className="theme-btn-1 btn btn-effect-1"
-                    >
-                      Download Brochure
+                      Learn More
                     </Link>
                   </div>
                 </div>

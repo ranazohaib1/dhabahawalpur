@@ -79,7 +79,7 @@ const QuickViewModal = ({
             <div className="row">
               <div className="col-lg-6 col-12">
                 <div className="modal-product-img">
-                  <img src="./img/product/4.png" alt="#" />
+                  <img src="/img/product/4.png" alt="#" />
                 </div>
               </div>
               <div className="col-lg-6 col-12">

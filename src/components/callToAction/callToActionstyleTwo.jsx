@@ -35,10 +35,10 @@ const callToActionstyleTwo = () => {
           </Row>
         </Container>
         <div className="ltn__call-to-4-img-1">
-          <img src="./img/slider/21.png" alt="#" />
+          <img src="/img/slider/21.png" alt="#" />
         </div>
         <div className="ltn__call-to-4-img-2">
-          <img src="./img/bg/11.png" alt="#" />
+          <img src="/img/bg/11.png" alt="#" />
         </div>
       </div>
     </>

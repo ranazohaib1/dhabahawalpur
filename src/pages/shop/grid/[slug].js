@@ -528,7 +528,7 @@ function ProductDetails({ product }) {
                             <div className="row">
                               <div className="col-lg-7">
                                 <div className="apartments-plan-img">
-                                  <img src="./img/others/10.png" alt="#" />
+                                  <img src="/img/others/10.png" alt="#" />
                                 </div>
                               </div>
                               <div className="col-lg-5">
@@ -585,7 +585,7 @@ function ProductDetails({ product }) {
                             <div className="row">
                               <div className="col-lg-7">
                                 <div className="apartments-plan-img">
-                                  <img src="./img/others/10.png" alt="#" />
+                                  <img src="/img/others/10.png" alt="#" />
                                 </div>
                               </div>
                               <div className="col-lg-5">
@@ -642,7 +642,7 @@ function ProductDetails({ product }) {
                             <div className="row">
                               <div className="col-lg-7">
                                 <div className="apartments-plan-img">
-                                  <img src="./img/others/10.png" alt="#" />
+                                  <img src="/img/others/10.png" alt="#" />
                                 </div>
                               </div>
                               <div className="col-lg-5">
@@ -699,7 +699,7 @@ function ProductDetails({ product }) {
                             <div className="row">
                               <div className="col-lg-7">
                                 <div className="apartments-plan-img">
-                                  <img src="./img/others/10.png" alt="#" />
+                                  <img src="/img/others/10.png" alt="#" />
                                 </div>
                               </div>
                               <div className="col-lg-5">
@@ -812,7 +812,7 @@ function ProductDetails({ product }) {
                           <li>
                             <div className="ltn__comment-item clearfix">
                               <div className="ltn__commenter-img">
-                                <img src="./img/testimonial/1.jpg" alt="Image" />
+                                <img src="/img/testimonial/1.jpg" alt="Image" />
                               </div>
                               <div className="ltn__commenter-comment">
                                 <h6>
@@ -861,7 +861,7 @@ function ProductDetails({ product }) {
                           <li>
                             <div className="ltn__comment-item clearfix">
                               <div className="ltn__commenter-img">
-                                <img src="./img/testimonial/3.jpg" alt="Image" />
+                                <img src="/img/testimonial/3.jpg" alt="Image" />
                               </div>
                               <div className="ltn__commenter-comment">
                                 <h6>
@@ -910,7 +910,7 @@ function ProductDetails({ product }) {
                           <li>
                             <div className="ltn__comment-item clearfix">
                               <div className="ltn__commenter-img">
-                                <img src="./img/testimonial/2.jpg" alt="Image" />
+                                <img src="/img/testimonial/2.jpg" alt="Image" />
                               </div>
                               <div className="ltn__commenter-comment">
                                 <h6>

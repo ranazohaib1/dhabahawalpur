@@ -123,7 +123,7 @@ function BlogtDetails({ blog }) {
 
                     <img
                       className="alignleft"
-                      src="./img/blog/blog-details/1.jpg"
+                      src="/img/blog/blog-details/1.jpg"
                       alt="Image"
                     />
                     <p>{blog.extraContent.description2}</p>
@@ -268,7 +268,7 @@ function BlogtDetails({ blog }) {
                         <li>
                           <div className="ltn__comment-item clearfix">
                             <div className="ltn__commenter-img">
-                              <img src="./img/testimonial/1.jpg" alt="Image" />
+                              <img src="/img/testimonial/1.jpg" alt="Image" />
                             </div>
                             <div className="ltn__commenter-comment">
                               <h6>
@@ -292,7 +292,7 @@ function BlogtDetails({ blog }) {
                               <div className="ltn__comment-item clearfix">
                                 <div className="ltn__commenter-img">
                                   <img
-                                    src="./img/testimonial/3.jpg"
+                                    src="/img/testimonial/3.jpg"
                                     alt="Image"
                                   />
                                 </div>
@@ -322,7 +322,7 @@ function BlogtDetails({ blog }) {
                         <li>
                           <div className="ltn__comment-item clearfix">
                             <div className="ltn__commenter-img">
-                              <img src="./img/testimonial/4.jpg" alt="Image" />
+                              <img src="/img/testimonial/4.jpg" alt="Image" />
                             </div>
                             <div className="ltn__commenter-comment">
                               <h6>

@@ -178,7 +178,7 @@ function portfolioDetails({ portfolio }) {
                   {/* <!-- Banner Widget --> */}
                   <div className="widget ltn__banner-widget">
                     <Link href="/shop">
-                      <img src="./img/banner/banner-1.jpg" alt="Banner Image" />
+                      <img src="/img/banner/banner-1.jpg" alt="Banner Image" />
                     </Link>
                   </div>
                 </aside>
