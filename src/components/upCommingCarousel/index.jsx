@@ -57,7 +57,7 @@ const UpCommingcarousel = () => {
               </Col>
               <Col xs={12} lg={5} className="section-bg-1">
                 <div className="ltn__upcoming-project-info ltn__menu-widget">
-                  <h1 className="mb-30">Completed Projects</h1>
+                  <h1 className="mb-30"  style={{color: "#654321"}}>Completed Projects</h1>
                   <ul className="mt">
                     <li>
                       1. Project Name: <span>Askari Bank</span>
@@ -99,7 +99,7 @@ const UpCommingcarousel = () => {
               <Col xs={12} lg={5} className="section-bg-1">
                 <div className="ltn__upcoming-project-info ltn__menu-widget">
                   {/* <h6 className="ltn__secondary-color">About Projects</h6> */}
-                  <h1>Completed Projects</h1>
+                  <h1 style={{color: "#654321"}}>Completed Projects</h1>
                   <ul>
                     <li>
                       1. Project Name: <span>Banquet Hall</span>
@@ -142,7 +142,7 @@ const UpCommingcarousel = () => {
               <Col xs={12} lg={5} className="section-bg-1">
                 <div className="ltn__upcoming-project-info ltn__menu-widget">
                   {/* <h6 className="ltn__secondary-color">About Projects</h6> */}
-                  <h1>Completed Projects</h1>
+                  <h1 style={{color: "#654321"}}>Completed Projects</h1>
                   <ul>
                     <li>
                       1. Project Name: <span>Villa Mosque</span>
